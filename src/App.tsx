@@ -8,7 +8,7 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <>
-      <div>
+      <div className="bg-gray-800 flex flex-col justify-center min-h-screen">
         <BrowserRouter>
           <h1>React-Router-NotFoundApp</h1>
           <Navigation />
